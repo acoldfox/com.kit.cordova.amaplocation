@@ -1,0 +1,33 @@
+{
+  "name": "com.kit.cordova.amaplocation",
+  "version": "1.0",
+  "description": "",
+  "cordova": {
+    "id": "com-kit-cordova-amaplocation",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Dhaval Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
