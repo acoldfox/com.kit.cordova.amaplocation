@@ -38,7 +38,7 @@ static NSString* const LONGITUDE_KEY = @"longitude";
         curLocationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;//精度最佳
         curLocationManager.delegate = self;
         if([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined && [[[UIDevice currentDevice] systemVersion ] floatValue] >= 8.0){
-            [curLocationManager requestAlwaysAuthorization];
+            [curLocationManager requestWhenInUseAuthorization];
         }
     }
     
