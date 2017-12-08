@@ -85,7 +85,7 @@ static NSString* const LONGITUDE_KEY = @"longitude";
     locationManager.distanceFilter = kCLLocationAccuracyHundredMeters; //更新距离
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;//精度最佳
     if([[[UIDevice currentDevice] systemVersion ] floatValue] >= 8.0){
-        [locationManager requestAlwaysAuthorization];
+        [locationManager requestWhenInUseAuthorization];
     }
 }
 
